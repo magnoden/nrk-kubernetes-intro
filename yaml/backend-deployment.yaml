@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: magregistry.azurecr.io/azurecr.io/cvbackend:v1
+        image: magregistry.azurecr.io/cvbackend:8
         ports:
         - containerPort: 5000
       imagePullSecrets:
