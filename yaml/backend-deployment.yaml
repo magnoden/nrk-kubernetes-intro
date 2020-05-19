@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: magregistry.azurecr.io/azurecr.io/cvbackend:v1
         ports:
         - containerPort: 5000
       imagePullSecrets:
